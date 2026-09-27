@@ -1,10 +1,12 @@
-<p align="center"><img src="assets/banner.svg" alt="Life From Water — donation platform — Donations and impact you can check, for a water-access NGO in rural Egypt" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Life From Water — donation platform" width="100%"></p>
 
-<p align="center"><b>Status:</b> Prototype live · donations switched on at launch &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a> &nbsp;·&nbsp; <b>Source:</b> private</p>
+<p align="center"><b>Donations and impact you can check, for a water-access NGO in rural Egypt</b></p>
 
-<p align="center" dir="rtl" lang="ar">منصة تبرع وشفافية أثر — ومن الماء حياة</p>
+<p align="center" dir="rtl" lang="ar">منصة للتبرّع ومتابعة الأثر بشفافية — مؤسسة ومن الماء حياة</p>
 
-> **This is a showcase, not the code.** The source is private because it is built to handle donor payments and personal data. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
+<p align="center"><b>Status:</b> Prototype live · donations switched on at launch &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
+
+> Case study only: the source is private because it is built to handle donor payments and personal data. Walkthrough on request.
 
 ## The problem
 
@@ -13,7 +15,7 @@ Donors are asked to trust a PDF report. Life From Water connects households in r
 ## What it does
 
 - Arabic-first editorial pages for projects, programmes, partners, media and annual reports
-- A public impact map of every funded site, with years and beneficiary counts
+- A public impact map of funded sites, with years and beneficiary counts
 - One-time and recurring donations through Egyptian cards and wallets, with automatic receipts (switched on at launch)
 - Donor accounts to see past gifts and manage recurring ones (switched on at launch)
 - Memorial gifts with a dedication card
@@ -21,11 +23,11 @@ Donors are asked to trust a PDF report. Life From Water connects households in r
 
 ## See it
 
-**[View the prototype →](https://lfw-mockup.vercel.app)**
+**[Open the Life From Water donation prototype](https://lfw-mockup.vercel.app)**
 
-<p align="center"><img src="assets/screen-1.png" alt="Homepage (Arabic)" width="92%"><br><sub>Homepage (Arabic)</sub></p>
+<p align="center"><img src="assets/screen-1.png" alt="Arabic homepage headline: clean water that makes life in Egypt&#x27;s villages, with Donate now and Projects buttons" width="92%"><br><sub>Homepage (Arabic)</sub></p>
 
-<p align="center"><img src="assets/screen-2.png" alt="Public impact map of funded sites" width="92%"><br><sub>Public impact map of funded sites</sub></p>
+<p align="center"><img src="assets/screen-2.png" alt="Map of Egypt with green dots marking funded water project sites along the Nile valley" width="92%"><br><sub>Public impact map (prototype): project sites loaded so far</sub></p>
 
 <sub>All screens show demo data or public pages only.</sub>
 
@@ -49,6 +51,7 @@ Next.js · TypeScript · Tailwind CSS · PostgreSQL with maps · local payment g
 
 - [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to, built to stop donation money being misfiled
 - [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) — Attendance, leave, overtime and approvals for a field NGO, in Arabic and English
+- [WaterEye](https://github.com/Mohanad1st/watereye-showcase) — Read an analogue water gauge from a phone photo, no smart meter needed
 - [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) — An evidence-first pipeline for grants, fellowships and tenders
 
 ---
