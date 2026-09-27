@@ -1,27 +1,27 @@
-<p align="center"><img src="assets/banner.svg" alt="Life From Water — donation platform" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Life From Water: donation platform" width="100%"></p>
 
-<p align="center"><b>Donations and impact you can check, for a water-access NGO in rural Egypt</b></p>
+<p align="center"><b>A donation platform in the making, with impact you can check, for our water-access work in rural Egypt</b></p>
 
 <p align="center" dir="rtl" lang="ar">منصة للتبرّع ومتابعة الأثر بشفافية — مؤسسة ومن الماء حياة</p>
 
-<p align="center"><b>Status:</b> Prototype live · donations switched on at launch &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
+<p align="center"><b>Status:</b> Prototype live · online donations not yet enabled &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
 
-> Case study only: the source is private because it is built to handle donor payments and personal data. Walkthrough on request.
+> This is a case study. The source is private because it is built to handle donor payments and personal data.
 
-## The problem
+## Why we built it
 
-Donors are asked to trust a PDF report. Life From Water connects households in rural Egypt to clean water, and every connection has a place and a year. This platform lets a donor give in a few steps with local payment methods, get a receipt automatically, and see on a public map where funded work actually happened.
+Donors are asked to trust a PDF report. We connect households in rural Egypt to clean water, and every funded site has a place and a year. This platform is built to let a donor give in a few steps with local payment methods, get a receipt automatically, and see on a public map where funded work happened.
 
 ## What it does
 
-- Arabic-first editorial pages for projects, programmes, partners, media and annual reports
-- A public impact map of funded sites, with years and beneficiary counts
-- One-time and recurring donations through Egyptian cards and wallets, with automatic receipts (switched on at launch)
-- Donor accounts to see past gifts and manage recurring ones (switched on at launch)
-- Memorial gifts with a dedication card
-- A staff console for publishing bilingual updates
+- Arabic-first pages for our projects, programmes, partners, media and annual reports.
+- A public impact map of funded sites, with years and beneficiary counts.
+- One-time and recurring donations through Egyptian cards and wallets, with automatic receipts (built, not yet enabled: it needs a payment contract and permit sign-off).
+- Donor accounts to see past gifts and manage recurring ones (built, not yet enabled).
+- Memorial gifts with a dedication card (not yet enabled).
+- A staff console for bilingual updates (not yet enabled).
 
-## See it
+## How it works
 
 **[Open the Life From Water donation prototype](https://lfw-mockup.vercel.app)**
 
@@ -31,27 +31,31 @@ Donors are asked to trust a PDF report. Life From Water connects households in r
 
 <sub>All screens show demo data or public pages only.</sub>
 
-## Built with
+## What it's built on
 
-Next.js · TypeScript · Tailwind CSS · PostgreSQL with maps · local payment gateway · transactional email · bot protection
+Next.js · TypeScript · Tailwind CSS · PostgreSQL with maps · a local payment gateway · transactional email · bot protection
 
-## Built responsibly
+## Safeguards
 
-- Row-level security on every application table; money and personal data can only be written by the server
-- A receipt can't be opened with its reference number alone
-- Bot protection and rate limits on donation and contact forms
-- Repeated security review rounds before launch, with fixes checked against the running system
-- No secrets in source control, checked across the full history
+- Row-level security on every application table. Money and personal data can only be written by the server.
+- A receipt can't be opened with its reference number alone.
+- Bot protection and rate limits on donation and contact forms.
+- Repeated security review rounds, with fixes checked against the running system.
+- No secrets in source control, checked across the full history.
 
-## What it deliberately doesn't do
+## What's not solved yet
+
+- Before launch: admin two-step login and an enforced content-security policy are still to do.
+
+## What it doesn't do
 
 - The public prototype runs with payments and accounts switched off, on purpose, until launch sign-off.
 
 ## More from Life From Water
 
 - [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to, built to stop donation money being misfiled
-- [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) — Attendance, leave, overtime and approvals for a field NGO, in Arabic and English
-- [WaterEye](https://github.com/Mohanad1st/watereye-showcase) — Read an analogue water gauge from a phone photo, no smart meter needed
+- [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) — Attendance, leave, overtime and approvals for our field staff, in Arabic and English
+- [WaterEye](https://github.com/Mohanad1st/watereye-showcase) — Read an analogue pressure or flow gauge from a photo, with no smart meter
 - [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) — An evidence-first pipeline for grants, fellowships and tenders
 
 ---
