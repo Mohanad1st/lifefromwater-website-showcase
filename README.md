@@ -2,9 +2,9 @@
 
 <p align="center"><b>Status:</b> Prototype live · donations switched on at launch &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a> &nbsp;·&nbsp; <b>Source:</b> private</p>
 
-<p align="center" dir="rtl" lang="ar">منصة تبرع وشفافية أثر لمؤسسة من الماء حياة</p>
+<p align="center" dir="rtl" lang="ar">منصة تبرع وشفافية أثر — ومن الماء حياة</p>
 
-> **This is a showcase, not the code.** The source is private because the system handles real operations for real people. Nothing here is needed to run it, and nothing here reveals how it is secured. A live walkthrough is available on request.
+> **This is a showcase, not the code.** The source is private because it is built to handle donor payments and personal data. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
 
 ## The problem
 
@@ -14,8 +14,8 @@ Donors are asked to trust a PDF report. Life From Water connects households in r
 
 - Arabic-first editorial pages for projects, programmes, partners, media and annual reports
 - A public impact map of every funded site, with years and beneficiary counts
-- One-time and recurring donations through Egyptian cards and wallets, with automatic receipts
-- Donor accounts to see past gifts and manage recurring ones
+- One-time and recurring donations through Egyptian cards and wallets, with automatic receipts (switched on at launch)
+- Donor accounts to see past gifts and manage recurring ones (switched on at launch)
 - Memorial gifts with a dedication card
 - A staff console for publishing bilingual updates
 
@@ -35,11 +35,10 @@ Next.js · TypeScript · Tailwind CSS · PostgreSQL with maps · local payment g
 
 ## Built responsibly
 
-- Row-level security on every table; money and personal data can only be written by the server
+- Row-level security on every application table; money and personal data can only be written by the server
 - A receipt can't be opened with its reference number alone
 - Bot protection and rate limits on donation and contact forms
-- Staff sign-in uses one-time codes with attempt limits
-- Independent security review rounds before launch, with every fix checked against the live system
+- Repeated security review rounds before launch, with fixes checked against the running system
 - No secrets in source control, checked across the full history
 
 ## What it deliberately doesn't do
@@ -48,7 +47,7 @@ Next.js · TypeScript · Tailwind CSS · PostgreSQL with maps · local payment g
 
 ## More from Life From Water
 
-- [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to — and that won't let donation money go astray
+- [Ameen](https://github.com/Mohanad1st/ameen-showcase) — A finance desk you talk to, built to stop donation money being misfiled
 - [LFW HR System](https://github.com/Mohanad1st/lfw-hr-system-showcase) — Attendance, leave, overtime and approvals for a field NGO, in Arabic and English
 - [Opportunity Studio](https://github.com/Mohanad1st/opportunity-studio-showcase) — An evidence-first pipeline for grants, fellowships and tenders
 
